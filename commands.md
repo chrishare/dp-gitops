@@ -22,3 +22,24 @@ docker run -it \
   -p 5550:5550 \
   ibmcom/datapower
 ```
+
+### OpenSSL
+
+Generate a self-signed key that is suitable only for LOCAL development (not production!)
+
+```
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes -subj "/CN=localhost"
+```
+
+### REST API
+
+Get all object types
+```
+curl -v -k https://172.17.0.2:5554/mgmt/status/ -u "admin:admin"
+```
+
+Get a specific object
+```
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/HTTPSourceProtocolHandler/test_http_handler -u "admin:admin"
+```
+
