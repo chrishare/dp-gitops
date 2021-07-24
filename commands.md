@@ -2,16 +2,22 @@
 
 ### Docker
 
-Start a docker container with the latest DataPower image from dockerhub, exposing port 9090 and 5550 for webmgmt.
+Start a docker container with the latest Datapower image from dockerhub, with pure default configuration. Default password is admin/admin. That is, password has will be:
 ```
-docker run -e DATAPOWER_ACCEPT_LICENSE=true ibmcom/datapower -p 9090:9090 -p 5550:5550
+openssl passwd -1 -salt 12345678 "admin"  
+> $1$12345678$kbapHduhihjieYIUP66Xt/
+```
+```
 docker run -it \
   -e DATAPOWER_ACCEPT_LICENSE=true \
   -e DATAPOWER_INTERACTIVE=true \
   -e DATAPOWER_WORKER_THREADS=4 \
   -p 9090:9090 \
-  -p 5550:5550
-
+  -p 5550:5550 \
+  ibmcom/datapower
+```
+Start a docker container with the latest DataPower image from dockerhub, exposing port 9090 and 5550 for webmgmt.
+```
 docker run -it \
   -v $PWD/test-data/docker/empty-domain/config:/drouter/config \
   -v $PWD/test-data/docker/empty-domain/local:/drouter/local \
