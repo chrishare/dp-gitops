@@ -12,9 +12,29 @@ I don't think we need to go the other way at this time - no cfg format to YAML, 
 
 Basically, we want to feature represent the objects that DataPower uses for configuration. It looks like the rest management API's json are very similar to the SOMA XML format (identical?) - so let's use yaml that corresponds to that rest API's json format.
 
+# Folder Layout
+
+```
+/docs - Documentation
+/dp_gitops - All python code
+/object_templates - Defaults value for objects (the values used when not specific), can
+be changed by the user
+/sample-data - REST Mgmt API examples of objects
+/soapui - Various SOAPUI tests for SOMA (SOAP Mgmt) interface
+/test-data - Test configuration for docker environments
+/tests - Tests for the python code
+```
+
+# TODO
+
+* Write some utilities to call the REST API to pull JSON back and represent in YAML, to save effort doing it by hand.
+* Write a flow that takes all YAML objects and produces the full auto-startup.cfg file.
+* Write some python to generate REST/SOMA for pushing objects.
+* Move defaults to a folder to users can edit them
+
 # Contact
 
-chrishare @ gmail
+chrishare @ gmail dt com
 
 # License
 

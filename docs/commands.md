@@ -19,8 +19,19 @@ docker run -it \
 Start a docker container with the latest DataPower image from dockerhub, exposing port 9090 and 5550 for webmgmt.
 ```
 docker run -it \
-  -v $PWD/test-data/docker/empty-domain/config:/drouter/config \
-  -v $PWD/test-data/docker/empty-domain/local:/drouter/local \
+  -v $PWD/test-data/docker/empty-domain/config:/opt/ibm/datapower/drouter/config \
+  -v $PWD/test-data/docker/empty-domain/local:/opt/ibm/datapower//drouter/local \
+  -e DATAPOWER_ACCEPT_LICENSE=true \
+  -e DATAPOWER_INTERACTIVE=true \
+  -e DATAPOWER_WORKER_THREADS=4 \
+  -p 9090:9090 \
+  -p 5550:5550 \
+  ibmcom/datapower
+```
+Start a docker container using a specific config file:
+```
+docker run -it \
+  -v $PWD/dp-gitops/tmp-data/config:/opt/ibm/datapower/drouter/config \
   -e DATAPOWER_ACCEPT_LICENSE=true \
   -e DATAPOWER_INTERACTIVE=true \
   -e DATAPOWER_WORKER_THREADS=4 \
