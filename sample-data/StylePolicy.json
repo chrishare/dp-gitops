@@ -1,0 +1,39 @@
+{
+        "_links": {
+                "self": {
+                        "href": "/mgmt/config/default/StylePolicy/test_policy"
+                },
+                "doc": {
+                        "href": "/mgmt/docs/config/StylePolicy"
+                }
+        },
+        "StylePolicy": {
+                "name": "test_policy",
+                "mAdminState": "enabled",
+                "DefStylesheetForSoap": "store:///filter-reject-all.xsl",
+                "DefStylesheetForXsl": "store:///identity.xsl",
+                "DefXQueryForJSON": "store:///reject-all-json.xq",
+                "PolicyMaps": [
+                        {
+                                "Match": {
+                                        "value": "ANY",
+                                        "href": "/mgmt/config/default/Matching/ANY"
+                                },
+                                "Rule": {
+                                        "value": "test_policy_rule_req",
+                                        "href": "/mgmt/config/default/StylePolicyRule/test_policy_rule_req"
+                                }
+                        },
+                        {
+                                "Match": {
+                                        "value": "ANY",
+                                        "href": "/mgmt/config/default/Matching/ANY"
+                                },
+                                "Rule": {
+                                        "value": "test_policy_rule_res",
+                                        "href": "/mgmt/config/default/StylePolicyRule/test_policy_rule_res"
+                                }
+                        }
+                ]
+        }
+}

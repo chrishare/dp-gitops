@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/PolicyAttachments/test_mpgw"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/PolicyAttachments"
+        }
+    },
+    "PolicyAttachments": {
+        "name": "test_mpgw",
+        "mAdminState": "enabled",
+        "EnforcementMode": "enforce",
+        "PolicyReferences": "on",
+        "SLAEnforcementMode": "allow-if-no-sla"
+    }
+}

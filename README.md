@@ -31,6 +31,13 @@ be changed by the user
 * Write a flow that takes all YAML objects and produces the full auto-startup.cfg file.
 * Write some python to generate REST/SOMA for pushing objects.
 * Move defaults to a folder to users can edit them
+* Make requirements.txt
+
+# Requirements
+
+* Python 3.6+
+* pyyaml
+* jinja2
 
 # Contact
 

@@ -58,5 +58,11 @@ curl -v -k https://172.17.0.2:5554/mgmt/status/ -u "admin:admin"
 Get a specific object
 ```
 curl -v -k https://172.17.0.2:5554/mgmt/config/default/HTTPSourceProtocolHandler/test_http_handler -u "admin:admin"
+
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/MultiProtocolGatewaySummary/test_mpgw -u "admin:admin"
+
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/PolicyAttachments/test_mpgw -u "admin:admin"
+
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/StylePolicy/default -u "admin:admin"
 ```
 
