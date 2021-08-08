@@ -21,7 +21,7 @@ Basically, we want to feature represent the objects that DataPower uses for conf
 be changed by the user
 /sample-data - REST Mgmt API examples of objects
 /soapui - Various SOAPUI tests for SOMA (SOAP Mgmt) interface
-/test-data - Test configuration for docker environments
+/test-data - Test configuration for docker environments.
 /tests - Tests for the python code
 ```
 
