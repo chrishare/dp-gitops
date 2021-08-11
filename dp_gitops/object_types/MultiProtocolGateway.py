@@ -200,10 +200,6 @@ exit
     "ResponseType": "preprocessed",
     "FollowRedirects": "on",
     "RewriteLocationHeader": "off",
-    "StylePolicy": {
-        "value": "default",
-        "href": "/mgmt/config/default/StylePolicy/default"
-    },
     "Type": "static-backend",
     "AllowCompression": "off",
     "EnableCompressedPayloadPassthrough": "off",
@@ -235,6 +231,9 @@ def main():
     "BackendUrl": "http://mybackend.com",
     "PolicyAttachments": {
         "value": "test_mpgw"
+    },
+    "StylePolicy": {
+        "value": "test_policy"
     }
   }
   print(multi_protcol_gateway.to_cfg())

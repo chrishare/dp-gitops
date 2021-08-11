@@ -1,0 +1,16 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/CryptoKey/test_key"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/CryptoKey"
+        }
+    },
+    "CryptoKey": {
+        "name": "test_key",
+        "mAdminState": "enabled",
+        "Filename": "cert:///key.pem",
+        "PasswordAlias": "off"
+    }
+}

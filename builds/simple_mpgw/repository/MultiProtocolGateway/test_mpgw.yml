@@ -1,0 +1,10 @@
+---
+name: test_mpgw
+mAdminState: enabled
+FrontProtocol:
+  value: test_http_handler
+BackendUrl: "{{ mpgw_backend }}"
+PolicyAttachments:
+  value: test_mpgw
+StylePolicy:
+  value: test_policy

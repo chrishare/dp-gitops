@@ -1,0 +1,29 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/StylePolicyRule/test_policy_rule_req"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/StylePolicyRule"
+        }
+    },
+    "StylePolicyRule": {
+        "name": "test_policy_rule_req",
+        "mAdminState": "enabled",
+        "Actions": [
+            {
+                "value": "test_policy_rule_req_gatewayscript_0",
+                "href": "/mgmt/config/default/StylePolicyAction/test_policy_rule_req_gatewayscript_0"
+            },
+            {
+                "value": "test_policy_rule_req_gatewayscript_1",
+                "href": "/mgmt/config/default/StylePolicyAction/test_policy_rule_req_gatewayscript_1"
+            }
+        ],
+        "Direction": "request-rule",
+        "InputFormat": "none",
+        "OutputFormat": "none",
+        "NonXMLProcessing": "off",
+        "Unprocessed": "off"
+    }
+}

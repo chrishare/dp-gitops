@@ -1,0 +1,43 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/StylePolicyAction/test_policy_rule_req_gatewayscript_0"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/StylePolicyAction"
+        }
+    },
+    "StylePolicyAction": {
+        "name": "test_policy_rule_req_gatewayscript_0",
+        "mAdminState": "enabled",
+        "Type": "gatewayscript",
+        "Input": "INPUT",
+        "ParseSettingsReference": {
+            "URL": "",
+            "Literal": "",
+            "Default": ""
+        },
+        "ParseMetricsResultType": "none",
+        "TransformLanguage": "none",
+        "GatewayScriptLocation": "local:///simple.js",
+        "ActionDebug": "off",
+        "Output": "PIPE",
+        "NoTranscodeUtf8": "off",
+        "NamedInOutLocationType": "default",
+        "SSLClientConfigType": "proxy",
+        "Transactional": "off",
+        "SOAPValidation": "body",
+        "SQLSourceType": "static",
+        "JWSVerifyStripSignature": "on",
+        "Asynchronous": "off",
+        "ResultsMode": "first-available",
+        "RetryCount": 0,
+        "RetryInterval": 1000,
+        "MultipleOutputs": "off",
+        "IteratorType": "XPATH",
+        "Timeout": 0,
+        "MethodRewriteType": "GET",
+        "MethodType": "POST",
+        "MethodType2": "POST"
+    }
+}

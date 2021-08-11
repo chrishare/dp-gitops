@@ -64,5 +64,15 @@ curl -v -k https://172.17.0.2:5554/mgmt/config/default/MultiProtocolGatewaySumma
 curl -v -k https://172.17.0.2:5554/mgmt/config/default/PolicyAttachments/test_mpgw -u "admin:admin"
 
 curl -v -k https://172.17.0.2:5554/mgmt/config/default/StylePolicy/default -u "admin:admin"
+
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/CryptoCertificate/test_cer -u "admin:admin"
+
 ```
+
+Get all certificates
+```
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/CryptoCertificate -u "admin:admin"
+```
+
+# Test MPGW
 

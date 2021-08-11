@@ -1,0 +1,15 @@
+---
+name: test_http_handler
+mAdminState: enabled
+LocalAddress: 0.0.0.0
+LocalPort: 80
+HTTPVersion: HTTP/1.1
+AllowedFeatures: 
+  HTTP-1.0: "on"
+  HTTP-1.1: "on"
+  POST: "on"
+  GET: "on"
+  PUT: "on"
+  QueryString: "on"
+  FragmentIdentifiers: "on"
+  

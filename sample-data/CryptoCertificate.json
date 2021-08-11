@@ -1,0 +1,17 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/CryptoCertificate/test_cer"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/CryptoCertificate"
+        }
+    },
+    "CryptoCertificate": {
+        "name": "test_cer",
+        "mAdminState": "enabled",
+        "Filename": "cert:///cert.pem",
+        "PasswordAlias": "off",
+        "IgnoreExpiration": "off"
+    }
+}

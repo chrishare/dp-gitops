@@ -1,0 +1,7 @@
+---
+name: test_policy_rule_req_gatewayscript_0
+mAdminState: "enabled"
+Type: "gatewayscript"
+Input: "INPUT"
+GatewayScriptLocation: "local:///simple.js"
+Output: "PIPE"

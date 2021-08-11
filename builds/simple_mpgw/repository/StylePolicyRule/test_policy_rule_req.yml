@@ -1,0 +1,7 @@
+---
+name: "test_policy_rule_req"
+mAdminState: "enabled"
+Direction: "request-rule"
+Actions: 
+  - value: "test_policy_rule_req_gatewayscript_0"
+  - value: "test_policy_rule_req_gatewayscript_1"

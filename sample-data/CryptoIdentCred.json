@@ -1,0 +1,22 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/CryptoIdentCred/test_idcred"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/CryptoIdentCred"
+        }
+    },
+    "CryptoIdentCred": {
+        "name": "test_idcred",
+        "mAdminState": "enabled",
+        "Key": {
+            "value": "test_key",
+            "href": "/mgmt/config/default/CryptoKey/test_key"
+        },
+        "Certificate": {
+            "value": "test_cer",
+            "href": "/mgmt/config/default/CryptoCertificate/test_cer"
+        }
+    }
+}

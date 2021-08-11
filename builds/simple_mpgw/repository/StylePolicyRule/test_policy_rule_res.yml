@@ -1,0 +1,6 @@
+---
+name: "test_policy_rule_res"
+mAdminState: "enabled"
+Direction: "response-rule"
+Actions: 
+  - value: "test_policy_rule_res_results_output_0"
