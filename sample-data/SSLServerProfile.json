@@ -1,0 +1,84 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/SSLServerProfile/test_ssl_profile"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/SSLServerProfile"
+        }
+    },
+    "SSLServerProfile": {
+        "name": "test_ssl_profile",
+        "mAdminState": "enabled",
+        "Protocols": {
+            "SSLv3": "off",
+            "TLSv1d0": "off",
+            "TLSv1d1": "on",
+            "TLSv1d2": "on",
+            "TLSv1d3": "on"
+        },
+        "Ciphers": [
+            "AES_256_GCM_SHA384",
+            "CHACHA20_POLY1305_SHA256",
+            "AES_128_GCM_SHA256",
+            "ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+            "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+            "ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+            "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+            "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+            "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+            "DHE_DSS_WITH_AES_256_GCM_SHA384",
+            "DHE_RSA_WITH_AES_256_GCM_SHA384",
+            "DHE_RSA_WITH_AES_256_CBC_SHA256",
+            "DHE_DSS_WITH_AES_256_CBC_SHA256",
+            "DHE_RSA_WITH_AES_256_CBC_SHA",
+            "DHE_DSS_WITH_AES_256_CBC_SHA",
+            "RSA_WITH_AES_256_GCM_SHA384",
+            "RSA_WITH_AES_256_CBC_SHA256",
+            "RSA_WITH_AES_256_CBC_SHA",
+            "ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+            "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+            "ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+            "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+            "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+            "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+            "DHE_DSS_WITH_AES_128_GCM_SHA256",
+            "DHE_RSA_WITH_AES_128_GCM_SHA256",
+            "DHE_RSA_WITH_AES_128_CBC_SHA256",
+            "DHE_DSS_WITH_AES_128_CBC_SHA256",
+            "DHE_RSA_WITH_AES_128_CBC_SHA",
+            "DHE_DSS_WITH_AES_128_CBC_SHA",
+            "RSA_WITH_AES_128_GCM_SHA256",
+            "RSA_WITH_AES_128_CBC_SHA256",
+            "RSA_WITH_AES_128_CBC_SHA"
+        ],
+        "Idcred": {
+            "value": "test_idcred",
+            "href": "/mgmt/config/default/CryptoIdentCred/test_idcred"
+        },
+        "RequestClientAuth": "off",
+        "RequireClientAuth": "on",
+        "ValidateClientCert": "on",
+        "SendClientAuthCAList": "on",
+        "Caching": "on",
+        "CacheTimeout": 300,
+        "CacheSize": 20,
+        "SSLOptions": {
+            "max-duration": "on",
+            "max-renegotiation": "on"
+        },
+        "MaxSSLDuration": 60,
+        "NumberOfRenegotiationAllowed": 5,
+        "ProhibitResumeOnReneg": "off",
+        "Compression": "off",
+        "AllowLegacyRenegotiation": "off",
+        "PreferServerCiphers": "on",
+        "EllipticCurves": [
+            "secp521r1",
+            "secp384r1",
+            "secp256k1",
+            "secp256r1"
+        ],
+        "PrioritizeChaCha": "off"
+    }
+}

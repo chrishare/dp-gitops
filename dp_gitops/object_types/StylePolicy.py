@@ -3,6 +3,7 @@ from jinja2 import Environment, StrictUndefined
 
 class StylePolicy:
     __JINJA2_CFG_TEMPLATE = """stylepolicy "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   admin-state {{ mAdminState }}
   reset
   filter "{{ DefStylesheetForSoap }}"

@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class HTTPSourceProtocolHandler:
   __JINJA2_CFG_TEMPLATE = """source-http "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   local-address {{ LocalAddress }}
   port {{ LocalPort }}
   http-client-version {{ HTTPVersion }}

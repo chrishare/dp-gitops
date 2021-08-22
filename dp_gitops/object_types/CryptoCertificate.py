@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class CryptoCertificate:
   __JINJA2_CFG_TEMPLATE = """crypto
+  {% if description is defined %}# {{ description }}{% endif %}
   certificate "{{ name }}"
   admin-state {{ mAdminState }}
   "{{ Filename }}"
@@ -28,7 +29,8 @@ def main():
   crypto_certificate.state = {
     "name": "test_cer",
     "mAdminState": "enabled",
-    "Filename": "cert:///cert.pem"
+    "Filename": "cert:///cert.pem",
+    "xdescription": "test field"
   }
   print(crypto_certificate.to_cfg())
 

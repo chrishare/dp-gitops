@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class PolicyAttachment:
   __JINJA2_CFG_TEMPLATE = """policy-attachments "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   admin-state {{ mAdminState }}
   enforcement-mode {{ EnforcementMode }}
   {{ "no " if PolicyReferences != 'on' else "" }}policy-references 

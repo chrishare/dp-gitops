@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class StylePolicyAction:
   __JINJA2_CFG_TEMPLATE = """action "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   reset
   type {{ Type }}
   input "{{ Input }}"

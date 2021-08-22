@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class CryptoKey:
   __JINJA2_CFG_TEMPLATE = """crypto
+  {% if description is defined %}# {{ description }}{% endif %}
   key "{{ name }}"
   admin-state {{ mAdminState }}
   "{{ Filename }}"

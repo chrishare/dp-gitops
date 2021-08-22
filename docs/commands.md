@@ -67,6 +67,8 @@ curl -v -k https://172.17.0.2:5554/mgmt/config/default/StylePolicy/default -u "a
 
 curl -v -k https://172.17.0.2:5554/mgmt/config/default/CryptoCertificate/test_cer -u "admin:admin"
 
+curl -v -k https://172.17.0.2:5554/mgmt/config/default/SSLServerProfile/test_ssl_profile -u "admin:admin"
+
 ```
 
 Get all certificates

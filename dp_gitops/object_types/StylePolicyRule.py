@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class StylePolicyRule:
   __JINJA2_CFG_TEMPLATE = """rule "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   reset
     {% if Actions is mapping %}action "{{ Actions.value }}"{% else %}{% for item in Actions %}action "{{ item.value }}"{% if not loop.last %}
     {% endif %}{% endfor %}{% endif %}
@@ -40,7 +41,8 @@ def main():
       "value": "test_policy_rule_req_gatewayscript_0"
     }, {
       "value": "test_policy_2"
-    }]
+    }],
+    "description": "This is a test"
   }
   print(style_policy_rule.to_cfg())
 

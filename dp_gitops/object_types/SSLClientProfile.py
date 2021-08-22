@@ -3,6 +3,7 @@ from jinja2 import Environment, StrictUndefined
 class SSLClientProfile:
   __JINJA2_CFG_TEMPLATE = """crypto
 ssl-client "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   admin-state {{ mAdminState }}
   protocols "{% set adder = joiner("+") %}{% for protocol, status in Protocols.items() %}{% if status == 'on' %}{{ adder() }}{{ protocol }}{% endif %}{% endfor %}" 
   {% for cipher in Ciphers %}ciphers {{ cipher }}

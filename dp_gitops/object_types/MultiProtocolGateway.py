@@ -2,6 +2,7 @@ from jinja2 import Environment, StrictUndefined
 
 class MultiProtocolGateway:
   __JINJA2_CFG_TEMPLATE = """mpgw "{{ name }}"
+  {% if description is defined %}# {{ description }}{% endif %}
   no policy-parameters
   admin-state {{ mAdminState }}
   summary "{{ UserSummary }}"
