@@ -1,0 +1,55 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/LogTarget/test_file_log"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/LogTarget"
+        }
+    },
+    "LogTarget": {
+        "name": "test_file_log",
+        "mAdminState": "enabled",
+        "Type": "file",
+        "Priority": "normal",
+        "SoapVersion": "soap11",
+        "Format": "text",
+        "TimestampFormat": "syslog",
+        "FixedFormat": "off",
+        "Size": 500,
+        "LocalFile": "logtemp:///temp.log",
+        "ArchiveMode": "rotate",
+        "UploadMethod": "ftp",
+        "Rotate": 3,
+        "UseANSIColor": "off",
+        "SyslogFacility": "user",
+        "RateLimit": 100,
+        "ConnectTimeout": 60,
+        "IdleTimeout": 15,
+        "ActiveTimeout": 0,
+        "FeedbackDetection": "off",
+        "IdenticalEventSuppression": "off",
+        "IdenticalEventPeriod": 10,
+        "SSLClientConfigType": "proxy",
+        "RetryInterval": 1,
+        "RetryAttempts": 1,
+        "LongRetryInterval": 20,
+        "LogPrecision": "second",
+        "LogEvents": [
+            {
+                "Class": {
+                    "value": "all",
+                    "href": "/mgmt/config/default/LogLabel/all"
+                },
+                "Priority": "error"
+            },
+            {
+                "Class": {
+                    "value": "apiconnect",
+                    "href": "/mgmt/config/default/LogLabel/apiconnect"
+                },
+                "Priority": "error"
+            }
+        ]
+    }
+}

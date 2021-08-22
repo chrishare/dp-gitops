@@ -1,0 +1,1441 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/LogLabel"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/LogLabel"
+        }
+    },
+    "LogLabel": [
+        {
+            "name": "aaa",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/aaa"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "AAA Policy"
+        },
+        {
+            "name": "all",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/all"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "All Categories"
+        },
+        {
+            "name": "amqp",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/amqp"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "AMQP"
+        },
+        {
+            "name": "api-stats",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/api-stats"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Messages for API Monitoring"
+        },
+        {
+            "name": "apic-gw-service",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/apic-gw-service"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "API Connect Gateway Service"
+        },
+        {
+            "name": "apiconnect",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/apiconnect"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "API Connect"
+        },
+        {
+            "name": "apigw",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/apigw"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "API Gateway"
+        },
+        {
+            "name": "audit",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/audit"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Audit Trace"
+        },
+        {
+            "name": "auth",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/auth"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Authentication"
+        },
+        {
+            "name": "b2bgw",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/b2bgw"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "B2B Gateway"
+        },
+        {
+            "name": "b2bp",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/b2bp"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "B2B Message Persistence"
+        },
+        {
+            "name": "cert-monitor",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/cert-monitor"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Crypto Certificate Monitor"
+        },
+        {
+            "name": "cli",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/cli"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "CLI Trace"
+        },
+        {
+            "name": "cloud-connector",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/cloud-connector"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Cloud Connector Processing"
+        },
+        {
+            "name": "cloud-gateway",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/cloud-gateway"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Cloud Gateway Processing"
+        },
+        {
+            "name": "cluster-service",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/cluster-service"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Cluster Service"
+        },
+        {
+            "name": "cms",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/cms"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "B2B Crypto Message Syntax"
+        },
+        {
+            "name": "crypto",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/crypto"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Crypto Subsystem"
+        },
+        {
+            "name": "dfdl",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/dfdl"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "DFDL"
+        },
+        {
+            "name": "evtlog",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/evtlog"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Event Subsystem"
+        },
+        {
+            "name": "extlatency",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/extlatency"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Enhanced Transactional Latency"
+        },
+        {
+            "name": "fibre-channel",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/fibre-channel"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Fibre Channel"
+        },
+        {
+            "name": "file",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/file"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "File Management"
+        },
+        {
+            "name": "file-capture",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/file-capture"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XML File Capture"
+        },
+        {
+            "name": "file-poller",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/file-poller"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "File Poller"
+        },
+        {
+            "name": "ftp",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ftp"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "FTP Message Exchange"
+        },
+        {
+            "name": "gateway-peering",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/gateway-peering"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Gateway Peering"
+        },
+        {
+            "name": "gateway-peering-manager",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/gateway-peering-manager"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Gateway Peering Manager"
+        },
+        {
+            "name": "gatewayscript",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/gatewayscript"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "GatewayScript Processing"
+        },
+        {
+            "name": "gatewayscript-user",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/gatewayscript-user"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "GatewayScript User Processing"
+        },
+        {
+            "name": "graphql-server",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/graphql-server"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "GraphQL Server"
+        },
+        {
+            "name": "http",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/http"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "HTTP Proxy"
+        },
+        {
+            "name": "http-convert",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/http-convert"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "HTTP to XML Converter"
+        },
+        {
+            "name": "ims",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ims"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Information Management System"
+        },
+        {
+            "name": "ip-multicast",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ip-multicast"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "IP Multicast"
+        },
+        {
+            "name": "ipmi",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ipmi"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Intelligent Platform Management Interface"
+        },
+        {
+            "name": "iscsi",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/iscsi"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "iSCSI"
+        },
+        {
+            "name": "kafka",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/kafka"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Kafka"
+        },
+        {
+            "name": "kerberos",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/kerberos"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Kerberos Access"
+        },
+        {
+            "name": "latency",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/latency"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Transactional Latency"
+        },
+        {
+            "name": "ldap",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ldap"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "LDAP Server Query"
+        },
+        {
+            "name": "llm",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/llm"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Low Latency Messaging"
+        },
+        {
+            "name": "ltpa",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ltpa"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "LTPA Token Access"
+        },
+        {
+            "name": "memory-report",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/memory-report"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Memory Report"
+        },
+        {
+            "name": "mgmt",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/mgmt"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Configuration Management"
+        },
+        {
+            "name": "mime",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/mime"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "MIME Message Processing"
+        },
+        {
+            "name": "monitor",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/monitor"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Message Monitoring"
+        },
+        {
+            "name": "mpgw",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/mpgw"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Multi-Protocol Gateway"
+        },
+        {
+            "name": "mq",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/mq"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WebSphere MQ"
+        },
+        {
+            "name": "multistep",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/multistep"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Multistep Transformations"
+        },
+        {
+            "name": "netegrity",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/netegrity"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Netegrity SiteMinder"
+        },
+        {
+            "name": "network",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/network"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Network Subsystem"
+        },
+        {
+            "name": "network-file",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/network-file"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Network File Access"
+        },
+        {
+            "name": "networkhsm-luna",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/networkhsm-luna"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Network HSM - Luna"
+        },
+        {
+            "name": "oauth",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/oauth"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "OAuth Processing"
+        },
+        {
+            "name": "ocsp",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ocsp"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "OCSP Subsystem"
+        },
+        {
+            "name": "odr",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/odr"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "On Demand Router"
+        },
+        {
+            "name": "odr-connector-group",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/odr-connector-group"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "On Demand Router Connector Group"
+        },
+        {
+            "name": "odrlib",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/odrlib"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "On Demand Router Library"
+        },
+        {
+            "name": "opentracing",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/opentracing"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Open Tracing Jaeger Client"
+        },
+        {
+            "name": "parse",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/parse"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Parsing"
+        },
+        {
+            "name": "peer-group",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/peer-group"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Peer Group"
+        },
+        {
+            "name": "product-insights",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/product-insights"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Product Insights"
+        },
+        {
+            "name": "quiesce",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/quiesce"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Quiesce"
+        },
+        {
+            "name": "quota-enforcement",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/quota-enforcement"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Quota Enforcement Server"
+        },
+        {
+            "name": "rbm",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/rbm"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Role-based Management"
+        },
+        {
+            "name": "rpcsec-gss",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/rpcsec-gss"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "RPC Security - Generic Security Service for NFS"
+        },
+        {
+            "name": "schema",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/schema"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Schema Validation"
+        },
+        {
+            "name": "secure-cloud-connector",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/secure-cloud-connector"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Secure Cloud Connector"
+        },
+        {
+            "name": "secure-conversation",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/secure-conversation"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WS-SecureConversation Security Context Management"
+        },
+        {
+            "name": "self-balancing",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/self-balancing"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Self-Balancing"
+        },
+        {
+            "name": "sftp",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/sftp"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "SFTP Message Exchange"
+        },
+        {
+            "name": "sgclient",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/sgclient"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Secure Gateway Client"
+        },
+        {
+            "name": "slm",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/slm"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Service Level Monitoring"
+        },
+        {
+            "name": "smtp",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/smtp"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "SMTP Message Exchange"
+        },
+        {
+            "name": "sql",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/sql"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "SQL Data Access"
+        },
+        {
+            "name": "ssh",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ssh"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "SSH Service"
+        },
+        {
+            "name": "ssl",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ssl"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "SSL Processing"
+        },
+        {
+            "name": "system",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/system"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "System Events"
+        },
+        {
+            "name": "tam",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/tam"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Tivoli Access Manager"
+        },
+        {
+            "name": "tenant",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/tenant"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Tenant Gateways"
+        },
+        {
+            "name": "test_log_category",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/test_log_category"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled"
+        },
+        {
+            "name": "tfim",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/tfim"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Tivoli Federated Identity Manager"
+        },
+        {
+            "name": "tibco-ems",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/tibco-ems"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Tibco EMS"
+        },
+        {
+            "name": "uddi",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/uddi"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "UDDI"
+        },
+        {
+            "name": "uddisub",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/uddisub"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "UDDI Subscription"
+        },
+        {
+            "name": "user",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/user"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "User Management"
+        },
+        {
+            "name": "useragent",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/useragent"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "User-Agent Subsystem"
+        },
+        {
+            "name": "wasjms",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/wasjms"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WebSphere JMS"
+        },
+        {
+            "name": "wcc",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/wcc"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WebSphere Cell Configuration"
+        },
+        {
+            "name": "web-token-service",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/web-token-service"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Web Token Service"
+        },
+        {
+            "name": "webapp-firewall",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/webapp-firewall"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Web Application Firewall"
+        },
+        {
+            "name": "ws-proxy",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/ws-proxy"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Web Service Proxy"
+        },
+        {
+            "name": "wsm-agent",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/wsm-agent"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Web Service Management Agent"
+        },
+        {
+            "name": "wsrr",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/wsrr"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WebSphere Service Registry and Repository"
+        },
+        {
+            "name": "wtx",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/wtx"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WTX"
+        },
+        {
+            "name": "wxs-grid",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/wxs-grid"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "WebSphere eXtreme Scale grid"
+        },
+        {
+            "name": "xacml",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xacml"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XACML"
+        },
+        {
+            "name": "xc10-grid",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xc10-grid"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XC10-grid"
+        },
+        {
+            "name": "xformng",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xformng"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XFormNG"
+        },
+        {
+            "name": "xmlfilter",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xmlfilter"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XML Message Filtering"
+        },
+        {
+            "name": "xmlfirewall",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xmlfirewall"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XML-Firewall Service"
+        },
+        {
+            "name": "xmlparse",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xmlparse"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "General XML Parsing"
+        },
+        {
+            "name": "xmlroute",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xmlroute"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XML Message Routing"
+        },
+        {
+            "name": "xquery",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xquery"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XQuery"
+        },
+        {
+            "name": "xslcoproc",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xslcoproc"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XSL-Coprocessor Service"
+        },
+        {
+            "name": "xslproxy",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xslproxy"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XSL-Proxy Service"
+        },
+        {
+            "name": "xslt",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xslt"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XSLT Compilation"
+        },
+        {
+            "name": "xsltmsg",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/xsltmsg"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "XSLT User Message"
+        },
+        {
+            "name": "zosnss",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/LogLabel/zosnss"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/LogLabel"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "zOS-NSS"
+        }
+    ]
+}
