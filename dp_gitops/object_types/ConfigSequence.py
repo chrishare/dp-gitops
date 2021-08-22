@@ -64,7 +64,6 @@ exit
         t = env.from_string(self.__JINJA2_CFG_TEMPLATE)
         return t.render(combined_state)
 
-
 def main():
     api_connect_gateway_service = APIConnectGatewayService()
     api_connect_gateway_service.state = {

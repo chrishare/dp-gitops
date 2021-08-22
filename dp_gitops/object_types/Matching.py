@@ -42,6 +42,8 @@ exit
         t = env.from_string(self.__JINJA2_CFG_TEMPLATE)
         return t.render(combined_state)
 
+    def get_from_server(self, name, cred):
+        return
 
 def main():
     matching = Matching()
