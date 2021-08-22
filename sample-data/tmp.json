@@ -1,0 +1,61 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/Matching"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/Matching"
+        }
+    },
+    "Matching": [
+        {
+            "name": "__default-accept-service-providers__",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/Matching/__default-accept-service-providers__"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/Matching"
+                }
+            },
+            "mAdminState": "enabled",
+            "UserSummary": "Match all messages.",
+            "MatchRules": {
+                "Type": "url",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "*",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            "MatchWithPCRE": "off",
+            "CombineWithOr": "off"
+        },
+        {
+            "name": "chris",
+            "_links": {
+                "self": {
+                    "href": "/mgmt/config/default/Matching/chris"
+                },
+                "doc": {
+                    "href": "/mgmt/docs/config/Matching"
+                }
+            },
+            "mAdminState": "enabled",
+            "MatchRules": {
+                "Type": "url",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "*",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            "MatchWithPCRE": "off",
+            "CombineWithOr": "off"
+        }
+    ]
+}
