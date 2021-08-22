@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/Matching/test_match"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/Matching"
+        }
+    },
+    "Matching": {
+        "name": "test_match",
+        "mAdminState": "enabled",
+        "MatchRules": [
+            {
+                "Type": "url",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "adsasd",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            {
+                "Type": "http",
+                "HttpTag": "header_name",
+                "HttpValue": "header_value",
+                "Url": "",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            {
+                "Type": "errorcode",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "",
+                "ErrorCode": "0x04b30005",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            {
+                "Type": "xpath",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "",
+                "ErrorCode": "",
+                "XPATHExpression": "//*:meh",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            {
+                "Type": "fullyqualifiedurl",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "fullish",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            {
+                "Type": "host",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "asd",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "default",
+                "CustomMethod": ""
+            },
+            {
+                "Type": "method",
+                "HttpTag": "",
+                "HttpValue": "",
+                "Url": "",
+                "ErrorCode": "",
+                "XPATHExpression": "",
+                "Method": "DELETE",
+                "CustomMethod": ""
+            }
+        ],
+        "MatchWithPCRE": "off",
+        "CombineWithOr": "off"
+    }
+}
