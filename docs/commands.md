@@ -40,6 +40,18 @@ docker run -it \
   ibmcom/datapower
 ```
 
+Start a docker with APIConnect files:
+```
+docker run -it \
+  -v $PWD/dp-gitops/tmp2/config:/opt/ibm/datapower/drouter/config \
+  -e DATAPOWER_ACCEPT_LICENSE=true \
+  -e DATAPOWER_INTERACTIVE=true \
+  -e DATAPOWER_WORKER_THREADS=4 \
+  -p 9090:9090 \
+  -p 5550:5550 \
+  ibmcom/datapower
+  ```
+
 ### OpenSSL
 
 Generate a self-signed key that is suitable only for LOCAL development (not production!)

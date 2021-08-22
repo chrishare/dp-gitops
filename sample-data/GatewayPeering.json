@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/GatewayPeering/appsdomain"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/GatewayPeering"
+        }
+    },
+    "GatewayPeering": {
+        "name": "appsdomain",
+        "mAdminState": "enabled",
+        "LocalAddress": "eth0_ipv4_1",
+        "LocalPort": 8546,
+        "PrimaryCount": 1,
+        "MonitorPort": 8547,
+        "ClusterAutoConfig": "on",
+        "EnablePeerGroup": "off",
+        "Priority": 100,
+        "EnableSSL": "off",
+        "PersistenceLocation": "memory",
+        "LocalDirectory": "local:///",
+        "MaxMemory": 0
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/APIConnectGatewayService"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/APIConnectGatewayService"
+        }
+    },
+    "APIConnectGatewayService": {
+        "name": "default",
+        "_links": {
+            "self": {
+                "href": "/mgmt/config/default/APIConnectGatewayService/default"
+            },
+            "doc": {
+                "href": "/mgmt/docs/config/APIConnectGatewayService"
+            }
+        },
+        "mAdminState": "enabled",
+        "LocalAddress": "eth0_ipv4_1",
+        "LocalPort": 8543,
+        "SSLClient": {
+            "value": "appsdomain",
+            "href": "/mgmt/config/default/SSLClientProfile/appsdomain"
+        },
+        "SSLServer": {
+            "value": "appsdomain",
+            "href": "/mgmt/config/default/SSLServerProfile/appsdomain"
+        },
+        "APIGatewayAddress": "eth0_ipv4_1",
+        "APIGatewayPort": 8443,
+        "GatewayPeering": {
+            "value": "appsdomain",
+            "href": "/mgmt/config/default/GatewayPeering/appsdomain"
+        },
+        "GatewayPeeringManager": {
+            "value": "default",
+            "href": "/mgmt/config/default/GatewayPeeringManager/default"
+        },
+        "V5CompatibilityMode": "off",
+        "V5CSlmMode": "autounicast",
+        "IPUnicast": ""
+    }
+}
