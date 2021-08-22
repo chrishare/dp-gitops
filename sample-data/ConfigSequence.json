@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "/mgmt/config/default/ConfigSequence/appsdomain"
+        },
+        "doc": {
+            "href": "/mgmt/docs/config/ConfigSequence"
+        }
+    },
+    "ConfigSequence": {
+        "name": "appsdomain",
+        "mAdminState": "enabled",
+        "Locations": [
+            {
+                "Directory": "local:///",
+                "AccessProfileName": {
+                    "value": "appsdomain",
+                    "href": "/mgmt/config/default/AccessProfile/appsdomain"
+                }
+            },
+            {
+                "Directory": "local:///luna_config",
+                "AccessProfileName": {
+                    "value": "appsdomain",
+                    "href": "/mgmt/config/default/AccessProfile/appsdomain"
+                }
+            }
+        ],
+        "MatchPattern": "(.*).cfg$",
+        "ResultNamePattern": "$1.log",
+        "StatusNamePattern": "$1.status",
+        "Watch": "on",
+        "UseOutputLocation": "off",
+        "OutputLocation": "logtemp:///",
+        "DeleteUnused": "on",
+        "RunSequenceInterval": 3000,
+        "Capabilities": {
+            "APIConnect": "off",
+            "MonitorPersistence": "off",
+            "ApplyAllObjects": "on",
+            "MarkExternal": "on",
+            "DeleteConfig": "off"
+        }
+    }
+}
