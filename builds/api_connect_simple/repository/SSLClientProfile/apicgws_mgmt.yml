@@ -1,0 +1,6 @@
+---
+name: apicgws_mgmt
+mAdminState: enabled
+Idcred:
+  value: apicgws_mgmt
+ValidateServerCert: 'off'

@@ -1,0 +1,7 @@
+---
+name: my_apic_gws
+mAdminState: enabled
+Locations:
+  Directory: local:///
+  AccessProfileName:
+    value: config_seq

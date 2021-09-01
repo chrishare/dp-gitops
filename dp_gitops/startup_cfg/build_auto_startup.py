@@ -9,9 +9,18 @@ from dp_gitops.object_types.CryptoIdentCred import CryptoIdentCred
 from dp_gitops.object_types.CryptoKey import CryptoKey
 from dp_gitops.object_types.PolicyAttachment import PolicyAttachment
 from dp_gitops.object_types.SSLClientProfile import SSLClientProfile
+from dp_gitops.object_types.SSLServerProfile import SSLServerProfile
 from dp_gitops.object_types.StylePolicy import StylePolicy
 from dp_gitops.object_types.StylePolicyRule import StylePolicyRule
 from dp_gitops.object_types.StylePolicyAction import StylePolicyAction
+from dp_gitops.object_types.AccessProfile import AccessProfile
+from dp_gitops.object_types.APIConnectGatewayService import APIConnectGatewayService
+from dp_gitops.object_types.ConfigSequence import ConfigSequence
+from dp_gitops.object_types.GatewayPeering import GatewayPeering
+from dp_gitops.object_types.LogLabel import LogLabel
+from dp_gitops.object_types.LogTarget import LogTarget
+from dp_gitops.object_types.Matching import Matching
+
 from pathlib import Path
 import yaml
 
@@ -94,25 +103,30 @@ def build_from_repository(configuration_data_path, environment, startup_cfg_temp
   add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'StylePolicyRule', StylePolicyRule)
   add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'StylePolicyAction', StylePolicyAction)
   add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'StylePolicy', StylePolicy)
-
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'AccessProfile', AccessProfile)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'APIConnectGatewayService', APIConnectGatewayService)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'ConfigSequence', ConfigSequence)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'Matching', Matching)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'LogLabel', LogLabel)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'LogTarget', LogTarget)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'SSLServerProfile', SSLServerProfile)
+  add_custom_configuration(custom_configuration_dict, environment_variables, repository_path, 'GatewayPeering', GatewayPeering)
   # Render auto_startup.cfg
   startup_cfg_content = render_cfg(startup_cfg_template, custom_configuration_dict)
   # Write rendered output to build directory
-  print("Here A")
   try:
     rmtree(build_output_path)
   except FileNotFoundError:
     pass
-  print("Here B")
   Path(build_output_path).mkdir(parents=True, exist_ok=True)
   print(join(build_output_path, 'auto-startup.cfg'))
   with open(join(build_output_path, 'auto-startup.cfg'), 'w') as writer:
     writer.write(startup_cfg_content)
 
 def main():
-  configuration_data_path = './builds/simple_mpgw'
+  configuration_data_path = './builds/api_connect_simple'
   environment = 'development'
-  build_output_path = './builds/simple_mpgw/output/' + environment
+  build_output_path = './builds/api_connect_simple/output/' + environment
   startup_cfg_template = 'insecure_bare_docker_10_0_3'
   build_from_repository(configuration_data_path, environment, startup_cfg_template, build_output_path)
 

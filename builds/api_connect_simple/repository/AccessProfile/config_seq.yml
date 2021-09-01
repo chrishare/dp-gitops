@@ -1,0 +1,6 @@
+---
+name: config_seq
+mAdminState: enabled
+AccessPolicies:
+- "*/*/*?Access=r"
+- "*/default/*?Access=r+w+a+d+x"

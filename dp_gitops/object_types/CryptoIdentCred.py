@@ -27,10 +27,10 @@ def main():
     "name": "test_idcred",
     "mAdminState": "enabled",
     "Key": {
-        "value": "cert:///key.pem"
+        "value": "cmy_key"
     },
     "Certificate": {
-        "value": "cert:///cert.pem"
+        "value": "my_cert"
     }
   }
   print(crypto_ident_cred.to_cfg())

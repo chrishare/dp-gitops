@@ -43,7 +43,7 @@ How to generate a build?
 * Write some python to generate REST/SOMA for pushing objects.
 * Move defaults to a folder to users can edit them
 * Make requirements.txt
-
+* Issue - env.yml must exist and have one variable (let it be an empty doc?)
 # Requirements
 
 * Python 3.6+

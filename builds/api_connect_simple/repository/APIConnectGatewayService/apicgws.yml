@@ -1,0 +1,14 @@
+---
+mAdminState: enabled
+LocalAddress: {{ apicgws_mgmt_interface }}
+LocalPort: {{ apicgw_mgmt_port }}
+SSLClient:
+  value: apicgws_mgmt
+SSLServer:
+  value: apicgws_mgmt
+APIGatewayAddress: {{ apicgws_api_interface }}
+APIGatewayPort: 8443
+GatewayPeering:
+  value: apicgws_mgmt
+GatewayPeeringManager:
+  value: apicgws_mgmt

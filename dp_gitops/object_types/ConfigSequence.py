@@ -1,7 +1,7 @@
 from jinja2 import Environment, StrictUndefined
 
 
-class APIConnectGatewayService:
+class ConfigSequence:
     __JINJA2_CFG_TEMPLATE = """config-sequence "{{ name }}"
   admin-state {{ mAdminState }}
   {% if Locations is mapping %}
@@ -58,15 +58,15 @@ exit
         self.state = dict()
 
     def to_cfg(self):
-        combined_state = APIConnectGatewayService.__DEFAULT_PROPS.copy()
+        combined_state = ConfigSequence.__DEFAULT_PROPS.copy()
         combined_state.update(self.state)
         env = Environment(undefined=StrictUndefined)
         t = env.from_string(self.__JINJA2_CFG_TEMPLATE)
         return t.render(combined_state)
 
 def main():
-    api_connect_gateway_service = APIConnectGatewayService()
-    api_connect_gateway_service.state = {
+    config_sequence = ConfigSequence()
+    config_sequence.state = {
         "name": "my_apic_gws",
         "mAdminState": "enabled",
         "Locations": {
@@ -76,7 +76,7 @@ def main():
             }
         }
     }
-    print(api_connect_gateway_service.to_cfg())
+    print(config_sequence.to_cfg())
 
 
 if __name__ == '__main__':

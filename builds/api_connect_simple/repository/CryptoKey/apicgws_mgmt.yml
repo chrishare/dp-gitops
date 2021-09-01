@@ -1,0 +1,5 @@
+---
+name: apicgws_mgmt
+mAdminState: enabled
+Filename: "cert:///apicgws.key"
+description": "mgmt key for apicgws"

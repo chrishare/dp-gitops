@@ -1,0 +1,6 @@
+name: apicgws_mgmt
+mAdminState: enabled
+Key:
+  value: apicgws_mgmt
+Certificate:
+  value: apicgws_mgmt
