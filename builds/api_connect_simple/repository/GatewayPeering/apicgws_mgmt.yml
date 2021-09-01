@@ -1,0 +1,8 @@
+---
+name: apicgws_mgmt
+mAdminState: enabled
+LocalAddress: {{ apicgws_mgmt_interface }}
+LocalPort: {{ apicgw_peering_local_port }}
+MonitorPort: {{ apicgw_peering_monitor_port }}
+PersistenceLocation: memory
+LocalDirectory: local:///
