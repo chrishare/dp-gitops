@@ -15,6 +15,12 @@ from dp_gitops.object_types.StylePolicyAction import StylePolicyAction
 from pathlib import Path
 import yaml
 
+"""
+Example run:
+
+python3 -m dp_gitops.startup_cfg.build_auto_startup
+
+"""
 def render_cfg(cfg_name, custom_configuration_dict):
   """ Perform jinja2 rendering using template from ./startup_cfg_templates/<cfg_name>
     and variables from custom_configuration_dict.
@@ -105,8 +111,8 @@ def build_from_repository(configuration_data_path, environment, startup_cfg_temp
 
 def main():
   configuration_data_path = './builds/simple_mpgw'
-  build_output_path = './builds/simple_mpgw/output'
-  environment = "development"
+  environment = 'development'
+  build_output_path = './builds/simple_mpgw/output/' + environment
   startup_cfg_template = 'insecure_bare_docker_10_0_3'
   build_from_repository(configuration_data_path, environment, startup_cfg_template, build_output_path)
 
