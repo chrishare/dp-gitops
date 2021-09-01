@@ -15,15 +15,26 @@ Basically, we want to feature represent the objects that DataPower uses for conf
 # Folder Layout
 
 ```
+/builds - Sample repositories of *input* configuration; expanded on greatly below - this is what users change
 /docs - Documentation
 /dp_gitops - All python code
-/object_templates - Defaults value for objects (the values used when not specific), can
-be changed by the user
-/sample-data - REST Mgmt API examples of objects
+/object-defaults - Defaults value for objects (the values used when custom data is not supplied by the user)
+/sample-data - REST Mgmt API examples of objects, can generally be ignored
 /soapui - Various SOAPUI tests for SOMA (SOAP Mgmt) interface
-/test-data - Test configuration for docker environments.
+/test-data - Test configuration for docker environments
 /tests - Tests for the python code
 ```
+
+# Builds
+
+A build is a datapower deployment, containing:
+```
+/repository - The input YAMLs the specify the MPGW, cert, WSP, and so on configuration. Generally, one file per datapower object.
+/environment/X - The environment-specific values to use when building the datapower objects. For instance, a development server might have a lower rate-limit (SLM) than a production server. X would be development, production and so on - whatever name the user chooses.
+/output/X - Where the generated auto-startup.cfg is written, if applicable.
+```
+
+How to generate a build?
 
 # TODO
 
