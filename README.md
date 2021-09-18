@@ -29,9 +29,15 @@ Basically, we want to feature represent the objects that DataPower uses for conf
 
 A build is a datapower deployment, containing:
 ```
-/repository - The input YAMLs the specify the MPGW, cert, WSP, and so on configuration. Generally, one file per datapower object.
+/repository - The input YAMLs thT specify config for the MPGW, cert, WSP (etc) objects. Generally, one file per datapower object. This configuration is environment-agnostic.
+  /HTTPSourceProtocolHandler - Config files for HTTPSourceProtocolHandler objects
+  /MultiProtocolGateway - Config files for MPGW objects
+  etc
 /environment/X - The environment-specific values to use when building the datapower objects. For instance, a development server might have a lower rate-limit (SLM) than a production server. X would be development, production and so on - whatever name the user chooses.
-/output/X - Where the generated auto-startup.cfg is written, if applicable.
+  /development/public_env.yml - The environmental values for environment "development" in key-value format (yml) that are not secret/sensitive. Must exist and me a valid yml document.
+  /development/private_env.gpg - The environmental values for environment "development" in key-value format (yml) that ARE secret/sensitive. Encrypted using gpg. Optional.
+/filesystem - Filesystem content - e.g. local:/ files for WSDLs, schemas, transforms and so on. Can use the same {{ }} templating that the repository configuration files use.
+/output/X - Where the generated auto-startup.cfg is written, if applicable. This is written by this process - no ceed for the user to create it or curate it.
 ```
 
 How to generate a build?
@@ -44,6 +50,7 @@ How to generate a build?
 * Move defaults to a folder to users can edit them
 * Make requirements.txt
 * Issue - env.yml must exist and have one variable (let it be an empty doc?)
+
 # Requirements
 
 * Python 3.6+
